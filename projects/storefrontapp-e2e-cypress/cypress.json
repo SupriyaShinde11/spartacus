@@ -1,12 +1,13 @@
 {
   "defaultCommandTimeout": 10000,
   "baseUrl": "http://localhost:4200",
-  "projectId": "k3nmep",
   "requestTimeout": 15000,
   "env": {
     "CLIENT_ID": "mobile_android",
     "CLIENT_SECRET": "secret",
     "API_URL": "https://cpqteamserver.mo.sap.corp:39002/",
+    "OCC_PREFIX": "/rest/v2",
+    "BASE_SITE": "electronics-spa",
     "ORDER_HISTORY_WAIT_TIME": 15000
   }
 }
